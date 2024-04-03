@@ -1,2 +1,2 @@
 [workspace]
-members = ["trait_demo", "cargo_demo", "error_handle_demo", "minigrep", "auto_test_demo", "closure_demo", "my_box_demo", "guessing_game"]
+members = ["trait_demo", "cargo_demo", "error_handle_demo", "minigrep", "auto_test_demo", "closure_demo", "my_box_demo", "guessing_game", "iterator_demo", "hash_map_demo", "fabonacci", "option_demo", "slice_demo", "string_demo", "struct_demo", "transfer_temperature", "print_http_header"]
