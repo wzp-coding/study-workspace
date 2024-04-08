@@ -34,12 +34,12 @@ fn test_largest() {
 fn test_largest1() {
     let number_list = vec![34, 50, 25, 100, 65];
 
-    let result = largest(&number_list);
+    let result = largest1(&number_list);
     println!("The largest number is {}", result);
 
     let char_list = vec!['y', 'm', 'a', 'q'];
 
-    let result = largest(&char_list);
+    let result = largest1(&char_list);
     println!("The largest char is {}", result);
 }
 
@@ -66,6 +66,7 @@ fn test_struct() {
 }
 
 pub trait Summary {
+
     fn summarize_author(&self) -> String;
 
     fn summarize(&self) -> String {

@@ -1,2 +1,24 @@
 [workspace]
-members = ["trait_demo", "cargo_demo", "error_handle_demo", "minigrep", "auto_test_demo", "closure_demo", "my_box_demo", "guessing_game", "iterator_demo", "hash_map_demo", "fabonacci", "option_demo", "slice_demo", "string_demo", "struct_demo", "transfer_temperature", "print_http_header"]
+members = [
+    "trait_demo",
+    "cargo_demo",
+    "error_handle_demo",
+    "minigrep",
+    "auto_test_demo",
+    "closure_demo",
+    "my_box_demo",
+    "guessing_game",
+    "iterator_demo",
+    "hash_map_demo",
+    "fabonacci",
+    "option_demo",
+    "slice_demo",
+    "string_demo",
+    "struct_demo",
+    "transfer_temperature",
+    "print_http_header",
+    "drop_trait_demo",
+    "rc_demo",
+    "ref_cell_demo",
+    "rc_ref_cell_demo", "rc_circle_demo", "thread_demo", "channel_demo", "object_oriented_demo", "control_flow_demo", "fn_demo", "lifetime_demo",
+]

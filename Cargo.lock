@@ -137,6 +137,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "channel_demo"
+version = "0.1.0"
+
+[[package]]
 name = "clap"
 version = "4.5.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -187,6 +191,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
 
 [[package]]
+name = "control_flow_demo"
+version = "0.1.0"
+
+[[package]]
 name = "core-foundation"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -201,6 +209,10 @@ name = "core-foundation-sys"
 version = "0.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "06ea2b9bc92be3c2baa9334a323ebca2d6f074ff852cd1d7b11064035cd3868f"
+
+[[package]]
+name = "drop_trait_demo"
+version = "0.1.0"
 
 [[package]]
 name = "encoding_rs"
@@ -240,6 +252,10 @@ name = "fastrand"
 version = "2.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "658bd65b1cf4c852a3cc96f18a8ce7b5640f6b703f905c7d74532294c2a63984"
+
+[[package]]
+name = "fn_demo"
+version = "0.1.0"
 
 [[package]]
 name = "fnv"
@@ -540,6 +556,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
 
 [[package]]
+name = "lifetime_demo"
+version = "0.1.0"
+
+[[package]]
 name = "linux-raw-sys"
 version = "0.4.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -627,6 +647,10 @@ checksum = "a6a622008b6e321afc04970976f62ee297fdbaa6f95318ca343e3eebb9648441"
 dependencies = [
  "memchr",
 ]
+
+[[package]]
+name = "object_oriented_demo"
+version = "0.1.0"
 
 [[package]]
 name = "once_cell"
@@ -787,6 +811,22 @@ checksum = "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c"
 dependencies = [
  "getrandom",
 ]
+
+[[package]]
+name = "rc_circle_demo"
+version = "0.1.0"
+
+[[package]]
+name = "rc_demo"
+version = "0.1.0"
+
+[[package]]
+name = "rc_ref_cell_demo"
+version = "0.1.0"
+
+[[package]]
+name = "ref_cell_demo"
+version = "0.1.0"
 
 [[package]]
 name = "reqwest"
@@ -1032,6 +1072,10 @@ dependencies = [
  "rustix",
  "windows-sys 0.52.0",
 ]
+
+[[package]]
+name = "thread_demo"
+version = "0.1.0"
 
 [[package]]
 name = "tinyvec"
